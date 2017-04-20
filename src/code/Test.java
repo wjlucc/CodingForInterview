@@ -8,6 +8,7 @@ public class Test {
 		Stack<Integer> stack1 = new Stack<Integer>();
 		stack1.add(4);
 		stack1.pop();
+		System.out.println();
 	}
 	
 	

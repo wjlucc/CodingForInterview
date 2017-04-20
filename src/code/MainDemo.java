@@ -39,6 +39,8 @@ public class MainDemo {
 		System.out.println(s6.pop());
 		System.out.println(s6.pop());
 		System.out.println(s6.pop());
+		System.out.println("-----------------");
+		System.out.println(3&3);
 
 	}
 
