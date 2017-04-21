@@ -41,6 +41,17 @@ public class MainDemo {
 		System.out.println(s6.pop());
 		System.out.println("-----------------");
 		System.out.println(3&3);
+		
+		System.out.println("-----------------");
+		Solution9 s9 = new Solution9();
+		int[] array9 = {4,5,6,7,2,3};
+		System.out.println(s9.minNumberInRotateArray(array9));
+		
+		System.out.println("-----------------");
+		Solution12 s12 = new Solution12();
+		int[] pre = {1,2,4,7,3,5,6,8};
+		int[] in =  {4,7,2,1,5,3,8,6};
+		s12.reConstructBinaryTree(pre,in);
 
 	}
 
