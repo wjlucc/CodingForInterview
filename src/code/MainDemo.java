@@ -52,6 +52,11 @@ public class MainDemo {
 		int[] pre = {1,2,4,7,3,5,6,8};
 		int[] in =  {4,7,2,1,5,3,8,6};
 		s12.reConstructBinaryTree(pre,in);
+		
+		System.out.println("-----------------");
+		int[] test = {1,2,3,4,5,6,7};
+		Solution14 s14 = new Solution14();
+		s14.reOrderArray(test);
 
 	}
 
