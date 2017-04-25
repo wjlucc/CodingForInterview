@@ -57,7 +57,36 @@ public class MainDemo {
 		int[] test = {1,2,3,4,5,6,7};
 		Solution14 s14 = new Solution14();
 		s14.reOrderArray(test);
+		System.out.println("-----------------");
+		Solution15 s15 = new Solution15();
+		System.out.println(s15.Power(2, -3));
+		System.out.println("-----------------");
+		ListNode s161 = new ListNode(1);
+		ListNode s162 = new ListNode(3);
+		ListNode s163 = new ListNode(5);
+		s161.next = s162;
+		s162.next = s163;
+		ListNode s1610 = new ListNode(2);
+		ListNode s1620 = new ListNode(4);
+		ListNode s1630 = new ListNode(6);
+		s1610.next = s1620;
+		s1620.next = s1630;
+		printList(s161);
+		printList(s1610);
+		Solution16 s16 = new Solution16();
+		printList(s16.Merge2(s161, s1610));
+		
+		
+		
 
+	}
+	public static void printList(ListNode list){
+		while(list != null){
+			System.out.print(list.val);
+			list = list.next;
+		}
+		System.out.println();
+			
 	}
 
 }
