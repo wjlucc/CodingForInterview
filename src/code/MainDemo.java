@@ -173,15 +173,22 @@ public class MainDemo {
 		Solution24  s24 = new Solution24();
 		s24.Clone(s231);
 		System.out.println("----------------------");
-		String t = "qwefdf";
-		for(int i = 0;i < t.length();i++){
-			System.out.println(t.charAt(i));
-		}
-		
+		int [] a = {53,17,78,9,45,65,87,32};
+		printMatax(a);
+		//testM(a);
+		Solution28 s28 = new Solution28();
+		s28.heapSort(a);		
+		printMatax(a);
+		//System.out.println(s28.GetLeastNumbers_Solution(a, 5));;
 		
 		
 				
 		
+	}
+	
+	public static void testM(int[] a){
+		for(int i = 3;i<a.length;i++)
+			a[i] = 0;
 	}
 	
 	public static double round(double num,int scale){
@@ -194,8 +201,16 @@ public class MainDemo {
 			System.out.print(list.val);
 			list = list.next;
 		}
+		System.out.println();			
+	}
+	
+	public static void printMatax(int[] a){
+		for (int i = 0;i < a.length;i++){
+			System.out.print(a[i]);
+			if(i != a.length-1)
+				System.out.print(",");
+		}
 		System.out.println();
-			
 	}
 
 }
