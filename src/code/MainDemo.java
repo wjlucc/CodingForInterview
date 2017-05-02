@@ -172,6 +172,11 @@ public class MainDemo {
 		s234.random = s232;
 		Solution24  s24 = new Solution24();
 		s24.Clone(s231);
+		System.out.println("----------------------");
+		String t = "qwefdf";
+		for(int i = 0;i < t.length();i++){
+			System.out.println(t.charAt(i));
+		}
 		
 		
 		
