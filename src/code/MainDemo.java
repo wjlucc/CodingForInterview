@@ -181,6 +181,9 @@ public class MainDemo {
 		printMatax(a);
 		//System.out.println(s28.GetLeastNumbers_Solution(a, 5));;
 		
+		System.out.println("--------------------------");
+		Solution30 s30 = new Solution30();
+		s30.NumberOf1Between1AndN_Solution(2593);
 		
 				
 		
