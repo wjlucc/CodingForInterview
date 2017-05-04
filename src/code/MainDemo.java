@@ -146,7 +146,7 @@ public class MainDemo {
 		System.out.println(s21.miniData);
 		System.out.println(s21.min());
 
-		*/
+		
 		System.out.println("--------------------------");
 		Solution20  s20 = new Solution20();
 		int[] pushA = {1};
@@ -184,8 +184,42 @@ public class MainDemo {
 		System.out.println("--------------------------");
 		Solution30 s30 = new Solution30();
 		s30.NumberOf1Between1AndN_Solution(2593);
+		System.out.println("--------------------------");
+		Solution31 s31 = new Solution31();		
 		
-				
+		s31.PrintMinNumber(new int[]{3,32,321});
+		
+		
+		Solution34 s34 = new Solution34();	
+		System.out.println(s34.InversePairs(new int[]{1,2,3,4,5,6,7,0}));
+		System.out.println("--------------------------");
+		MergeSort merge = new MergeSort();
+		//int[] data = {49,38,65,97,76,13,27};
+		int[] data = {1,2,3,4,5,6,7,0};
+		printMatax(data);		
+		merge.mergeSort(data, 0, data.length-1);
+		printMatax(data);
+		System.out.println(merge.count);
+		*/
+		System.out.println("--------------------------");
+		System.out.println("-----------------");
+		ListNode s161 = new ListNode(1);
+		ListNode s162 = new ListNode(3);
+		ListNode s163 = new ListNode(5);
+		s161.next = s162;
+		s162.next = s163;
+		ListNode s1610 = new ListNode(2);
+		ListNode s1620 = new ListNode(4);
+		ListNode s1630 = new ListNode(6);
+		s1610.next = s1620;
+		s1620.next = s1630;
+		s1630.next = s163;
+		printList(s161);
+		printList(s1610);
+		Solution35 s35 = new Solution35();
+		//printList(s16.Merge2(s161, s1610));	
+		s35.FindFirstCommonNode(s161, s1610);
+		
 		
 	}
 	
